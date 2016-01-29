@@ -1,0 +1,40 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/delasky/varnish.git"
+  },
+  "author": "Daniel Olasky, Jon Rogozen",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/delasky/varnish/issues"
+  },
+  "homepage": "https://github.com/delasky/varnish",
+  "dependencies": {
+    "babel": "^6.3.26",
+    "babel-core": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.14.2",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "jsonwebtoken": "^5.5.4",
+    "lodash": "^4.1.0",
+    "mongoose": "^4.3.7",
+    "morgan": "^1.6.1",
+    "nodemon": "^1.8.1",
+    "promise": "^7.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "nock": "^7.0.2"
+  }
+}
